@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+    long long n,h;
+    double r;
+    cin >> n >> h >> r;
+    cout << "NUMBER = " << n << endl;
+    cout << "SALARY = U$ " << fixed << setprecision(2) << h*r << endl;
+
+
+}
