@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+
+     long long a,b,c,d;
+     double e,f,Total;
+     cin >> a >> b >> e;
+     cin >> c >> d >> f;
+     Total = (b*e)+(d*f);
+     cout << fixed << setprecision(2) << "VALOR A PAGAR: R$ " << Total << endl;
+
+}
