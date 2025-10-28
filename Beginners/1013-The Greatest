@@ -1,0 +1,9 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+  double A, B, C;
+  cin>> A >> B >> C;
+  long long great= (A+B+ abs(A-B))/2;
+  long long greatest=( great + C + abs(great-C))/2;
+  cout << greatest << " eh o maior" << endl;
+}
